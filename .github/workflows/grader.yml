@@ -45,7 +45,7 @@ jobs:
       uses: actions/checkout@v3
       with:
         repository: ZJU-PPL/graders
-        ref: lab-2
+        ref: lab-3
         token: ${{ secrets.GRADER_PAT }}
         path: ./src/grader/
 
@@ -150,5 +150,5 @@ jobs:
           -X PUT \
           -H "Accept: application/vnd.github+json" \
           -H "Authorization: Bearer ${{ secrets.ARCHIVER_PAT }}" \
-          https://api.github.com/repos/ZJU-PPL/scores/contents/lab-2.$TS.$USER.log \
+          https://api.github.com/repos/ZJU-PPL/scores/contents/lab-3.$TS.$USER.log \
           --data-binary "@./data.json"
