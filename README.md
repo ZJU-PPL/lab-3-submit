@@ -1,4 +1,4 @@
-# PPL Course Lab 2 Submission Instruction
+# PPL Course Lab 3 Submission Instruction
 
 You are required to use GitHub issues to upload your code. There are two steps.
 
@@ -30,7 +30,7 @@ Warnings:
 
 - DO NOT try to hack the grader or do other cheating behaviors. There's going to be serious results.
 
-# 编程语言原理课程实验二提交说明
+# 编程语言原理课程实验三提交说明
 
 你需要使用 GitHub Issues 来上传你的代码。
 
